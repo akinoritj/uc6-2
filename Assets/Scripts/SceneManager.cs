@@ -18,7 +18,7 @@ public class Diagnósticos : MonoBehaviour
 
     public void Livro()
     {
-        SceneManager.LoadScene("Minigame");
+        SceneManager.LoadScene("SampleScene");
     }
 
     public void Back()
@@ -28,6 +28,6 @@ public class Diagnósticos : MonoBehaviour
 
     public void Tratamento()
     {
-        SceneManager.LoadScene("Tratamento");
+        SceneManager.LoadScene("Tratamentos");
     }
 }

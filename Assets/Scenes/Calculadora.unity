@@ -38,6 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2866,7 +2867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -431.96, y: 264.58014}
+  m_AnchoredPosition: {x: -430, y: 211.97}
   m_SizeDelta: {x: 287.67, y: 68.174}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1514110754
@@ -3637,8 +3638,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 84.38691
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 920.29834
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
