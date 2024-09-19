@@ -6,6 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class Diagnósticos : MonoBehaviour
 {
+     public void VoltarE()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+
     public void Diagnostico()
     {
         SceneManager.LoadScene("Mauricio");
@@ -29,5 +34,15 @@ public class Diagnósticos : MonoBehaviour
     public void Tratamento()
     {
         SceneManager.LoadScene("Tratamentos");
+    }
+
+    public void Jogo()
+    {
+        SceneManager.LoadScene("Minigame");
+    }
+
+     public void Play()
+    {
+        SceneManager.LoadScene("Thiago");
     }
 }
