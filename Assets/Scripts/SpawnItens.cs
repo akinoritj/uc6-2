@@ -9,7 +9,7 @@ public class SpawnItens : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("CreateObject", 2f, 2f);
+        InvokeRepeating("CreateObject", 1.50f, 1.50f);
     }
 
     // Update is called once per frame

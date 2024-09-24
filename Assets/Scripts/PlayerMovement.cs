@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        velocidade = 10;
+        velocidade = 12;
         direcao = Vector2.zero;
 
     }
